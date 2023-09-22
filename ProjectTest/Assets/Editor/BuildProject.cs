@@ -5,7 +5,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-public class BuildProject : MonoBehaviour
+public static class BuildProject : MonoBehaviour
 {
     [MenuItem("Build/BuildApk")]
     public static void BuildApk()
